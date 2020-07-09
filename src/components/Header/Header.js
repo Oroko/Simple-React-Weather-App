@@ -6,7 +6,7 @@ import Logo from "../../elements/Logo/Logo";
 const header = (props) => {
   return (
     <header className={classes.Header}>
-      <Logo colorScheme="light" />
+      <Logo colorScheme />
     </header>
   );
 };
