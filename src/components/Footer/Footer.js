@@ -1,25 +1,15 @@
-import React, {
-    Component
-} from 'react';
+import React from "react";
 
-import Logo from '../../elements/Logo/Logo';
+import classes from "./Footer.module.css";
+import Logo from "../../elements/Logo/Logo";
 
-const footer = () => {
-    return ( <
-        footer className = {
-            classes.Footer
-        } >
-        <
-        Logo colorScheme = 'dark'
-        clicked = {
-            props.onClickHandler
-        }
-        /> <
-        div className = {
-            classes.Separator
-        } > < /div> < /
-        footer >
-    )
-}
+const footer = (props) => {
+  return (
+    <footer className={classes.Footer}>
+      <Logo colorScheme="dark" clicked={props.onClickHandler} />
+      <div className={classes.Separator}></div>
+    </footer>
+  );
+};
 
-export default Footer
+export default footer;
