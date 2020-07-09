@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "../Logo/Logo..module.css";
+import classes from "../Logo/Logo.module.css";
 
 const logo = (props) => {
   let logoWithColorScheme = [
