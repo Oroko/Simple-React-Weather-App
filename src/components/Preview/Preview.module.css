@@ -4,8 +4,8 @@
   max-width: 250px;
   margin: auto;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width:600px) {
   .Preview {
-    max-width: 200px;
+      max-width: 200px;
   }
 }

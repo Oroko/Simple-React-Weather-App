@@ -1,18 +1,22 @@
 .Header {
   margin: 0;
-  padding: 0.5rem 1.5rem;
+  padding: .5rem 1.5rem;
   height: 100%;
   min-height: 2.5rem;
-  background: #c0b3bc;
+  background: #C0B3BC;
   display: flex;
+  flex-direction: ;
   align-items: center;
   justify-content: flex-end;
-  -webkit-transition: background-color 0.5s ease-out;
-  -ms-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color .5s ease-out;
+  -ms-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
 }
-@media only screen and (min-width: 600px) {
+
+
+
+@media only screen and (min-width:600px) {
   .Header {
-    justify-content: center;
+      justify-content: center;
   }
 }

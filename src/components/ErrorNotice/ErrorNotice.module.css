@@ -19,15 +19,15 @@
 .NotFoundDetails {
   font-size: 1.25rem;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width:600px) {
   .ErrorNoticeWrapper {
-    flex-direction: row;
-    justify-content: space-around;
+      flex-direction: row;
+      justify-content: space-around;
   }
   .ErrorTextWrapper {
-    max-width: 180px;
+      max-width: 180px;
   }
   .NotFound404 {
-    line-height: 140%;
+      line-height: 140%;
   }
 }
