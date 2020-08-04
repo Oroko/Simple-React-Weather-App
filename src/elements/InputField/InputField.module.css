@@ -1,6 +1,6 @@
 .InputFieldWrapper input {
   display: block;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   padding: 0;
   width: 100%;
   max-width: 280px;
@@ -14,7 +14,7 @@
 .InputFieldWrapper input::placeholder {
   color: #adadad;
   opacity: 1;
-  line-height: normal !important;
+  line-height:normal !important;
 }
 .InputFieldWrapper input:focus,
 .InputFieldWrapper input:active {
@@ -24,5 +24,5 @@
   color: #606060;
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: +0.5px;
+  letter-spacing: +.5px;
 }

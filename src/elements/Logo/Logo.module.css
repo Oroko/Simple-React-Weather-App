@@ -7,15 +7,12 @@
   letter-spacing: +2px;
   white-space: nowrap;
 }
-
 .Logo:hover {
   cursor: pointer;
 }
-
 .Light {
   color: #ffffff;
 }
-
 .Dark {
   color: #606060;
 }
